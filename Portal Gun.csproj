@@ -225,6 +225,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\portalPlacer.cs" />
     <Compile Include="Assets\portalTest.cs" />
     <Compile Include="Assets\RayCaster.cs" />
     <Compile Include="Assets\speed.cs" />

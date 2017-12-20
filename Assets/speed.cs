@@ -10,9 +10,10 @@ public class speed : MonoBehaviour {
    // Use this for initialization
 	void Start () {
         r = GetComponent<Rigidbody>();
-        r.useGravity = false;
+       // r.useGravity = false;
+  
+        //StartCoroutine(PauseAtStart());
         r.AddTorque(.8f, .7f, .6f);
-        StartCoroutine(PauseAtStart());
     }
 	
 	// Update is called once per frame

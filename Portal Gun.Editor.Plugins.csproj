@@ -267,13 +267,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Portal Gun.Plugins.csproj">
-      <Project>{B70AB498-1CB3-C69B-E345-588FCCF1496E}</Project>
-      <Name>Portal Gun.Plugins</Name>
-    </ProjectReference>
     <ProjectReference Include="Portal Gun.csproj">
       <Project>{9C2938B5-E65D-79AD-12C0-58FD95D09BAC}</Project>
       <Name>Portal Gun</Name>
+    </ProjectReference>
+    <ProjectReference Include="Portal Gun.Plugins.csproj">
+      <Project>{B70AB498-1CB3-C69B-E345-588FCCF1496E}</Project>
+      <Name>Portal Gun.Plugins</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
